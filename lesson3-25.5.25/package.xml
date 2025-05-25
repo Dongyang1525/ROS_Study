@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>pub_sub_cmd_vel</name>
+  <version>0.0.0</version>
+  <description>Just a ROS learning example for SMBU PolarBear 2025</description>
+  <maintainer email="lihanchen2004@163.com">lihanchen</maintainer>
+  <license>MIT</license>
+
+  <!-- buildtool_depend: dependencies of the build process -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- depend: build, export, and execution dependency -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>geometry_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_clang_format</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
